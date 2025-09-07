@@ -1,6 +1,55 @@
 /* Your CSS here. */
 
-.text {
-    color: blue;
-    font-size: 20px;
+body, html{
+    height: 100%;
+    margin:0;
+}
+
+.my-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.card{
+    background-color: #666666;
+    text-align: center;
+    font-style: normal;
+    color: white;
+    padding: 20px;
+    width: 800px;
+    height: 550px;
+    font-weight: bold;    
+}
+
+img{
+    width: 150px;
+    height: 150px;   
+    display: block;
+    margin:0 auto 20px auto;
+}
+
+.card h1{
+    margin: 25px 0;
+}
+
+
+.email{
+    font-style: italic;
+    margin:20px 0;
+}
+
+.card a{
+    font-size: large;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+
+.card p:nth-last-of-type(1),
+.card p:nth-last-of-type(2){
+    text-align: left;
+    font-weight: normal;   
 }
